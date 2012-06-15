@@ -67,6 +67,24 @@ public class Fragment_List extends ListFragment {
 	 		ft2.replace(R.id.content2, frag21);
 	 		ft2.commit();
 	 		break;
+		case 3:
+			Fragment frag3 = new Fragment_FVAnn();
+			Fragment frag31 = new Fragment_FVAnn_Info();
+	 		FragmentTransaction ft3 = getFragmentManager().beginTransaction();
+	 		ft3.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+	 		ft3.replace(R.id.content1, frag3);
+	 		ft3.replace(R.id.content2, frag31);
+	 		ft3.commit();
+	 		break;
+		case 4:
+			Fragment frag4 = new Fragment_FVAnnDue();
+			Fragment frag41 = new Fragment_FVAnnDue_Info();
+	 		FragmentTransaction ft4 = getFragmentManager().beginTransaction();
+	 		ft4.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+	 		ft4.replace(R.id.content1, frag4);
+	 		ft4.replace(R.id.content2, frag41);
+	 		ft4.commit();
+	 		break;
 
 		default:
 			Toast t = Toast.makeText(getActivity(), "Error Default Break on selction", 10000);

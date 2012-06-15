@@ -26,7 +26,7 @@
     
     
     <string name="pvann0">Present Value of Annuity</string>
-    <string name="pvann1">Please fill in the fields, leaving one empPlease fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.ty. Hit calculate and the missing value will be calculated.</string>
+    <string name="pvann1">Please fill in the fields, leaving one empty. Please fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
     <string name="pvanninfo0">Present Value of Annuity - Help Section</string>
     <string name="pvanninfo1">The following equation is used:</string>
     <string name="pvanninfo2">The logic behind this formula is that if you receive payments for a number of years, each successive payment is worth less to you because you have to wait for it. Five payments of $5000 for example are not worth $25,000 but less (depending on interest rate applied). This formula calculates how much less the stream of payments is worth.</string>
@@ -36,14 +36,34 @@
     <string name="pvanninfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
     
     <string name="pvanndue0">Present Value of Annuity Due</string>
-    <string name="pvanndue1">Please fill in the fields, leaving one empPlease fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.ty. Hit calculate and the missing value will be calculated.</string>
-    <string name="pvanndueinfo0">Present Value of Annuity - Help Section</string>
+    <string name="pvanndue1">Please fill in the fields, leaving one empty. Please fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
+    <string name="pvanndueinfo0">Present Value of Annuity Due - Help Section</string>
     <string name="pvanndueinfo1">The following equation is used:</string>
-    <string name="pvanndueinfo2">The logic behind this formula is that if you receive payments for a number of years, each successive payment is worth less to you because you have to wait for it. Five payments of $5000 for example are not worth $25,000 but less (depending on interest rate applied). This formula calculates how much less the stream of payments is worth.</string>
+    <string name="pvanndueinfo2">The logic behind this formula is that if you receive payments for a number of years, each successive payment is worth less to you because you have to wait for it. Five payments of $5000 for example are not worth $25,000 but less (depending on interest rate applied). This formula calculates how much less the stream of payments is worth. However, for the Annuity Due, it is assumed that the first payment is made / received today. This means that it is essentially the cash flow today + the present value of the annuity for n-1 years.</string>
     <string name="pvanndueinfo3">Present Value: The present value sum of all annual payments discounted for the number of years specified</string>
     <string name="pvanndueinfo4">Cash Flow: The annual cash flow received each year for the number of years specified</string>
     <string name="pvanndueinfo5">Interest Rate: The interest rate applied to see how much less each successive payment is worth</string>
     <string name="pvanndueinfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
+    
+    <string name="fvann0">Future Value of Annuity</string>
+    <string name="fvann1">Please fill in the fields, leaving one empPlease fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
+    <string name="fvanninfo0">Present Value of Annuity - Help Section</string>
+    <string name="fvanninfo1">The following equation is used:</string>
+    <string name="fvanninfo2">The logic behind this formula is that if you receive payments for a number of years, each successive payment is worth less to you because you have to wait for it. Five payments of $5000 for example are not worth $25,000 but less (depending on interest rate applied). This formula calculates how much less the stream of payments is worth.</string>
+    <string name="fvanninfo3">Present Value: The present value sum of all annual payments discounted for the number of years specified</string>
+    <string name="fvanninfo4">Cash Flow: The annual cash flow received each year for the number of years specified</string>
+    <string name="fvanninfo5">Interest Rate: The interest rate applied to see how much less each successive payment is worth</string>
+    <string name="fvanninfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
+    
+    <string name="fvanndue0">Present Value of Annuity Due</string>
+    <string name="fvanndue1">Please fill in the fields, leaving one empPlease fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.ty. Hit calculate and the missing value will be calculated.</string>
+    <string name="fvanndueinfo0">Present Value of Annuity - Help Section</string>
+    <string name="fvanndueinfo1">The following equation is used:</string>
+    <string name="fvanndueinfo2">The logic behind this formula is that if you receive payments for a number of years, each successive payment is worth less to you because you have to wait for it. Five payments of $5000 for example are not worth $25,000 but less (depending on interest rate applied). This formula calculates how much less the stream of payments is worth.</string>
+    <string name="fvanndueinfo3">Present Value: The present value sum of all annual payments discounted for the number of years specified</string>
+    <string name="fvanndueinfo4">Cash Flow: The annual cash flow received each year for the number of years specified</string>
+    <string name="fvanndueinfo5">Interest Rate: The interest rate applied to see how much less each successive payment is worth</string>
+    <string name="fvanndueinfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
     
     <string name="bonds0">Present Value of Annuity</string>
     <string name="bonds1">Please fill in the fields, leaving one empPlease fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.ty. Hit calculate and the missing value will be calculated.</string>

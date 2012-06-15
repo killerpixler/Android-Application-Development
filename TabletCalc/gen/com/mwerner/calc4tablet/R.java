@@ -14,10 +14,11 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int pv=0x7f020001;
-        public static final int pvann=0x7f020002;
-        public static final int pvanndue=0x7f020003;
+        public static final int fvann=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int pv=0x7f020002;
+        public static final int pvann=0x7f020003;
+        public static final int pvanndue=0x7f020004;
     }
     public static final class id {
         public static final int content1=0x7f06001d;
@@ -31,18 +32,18 @@ public final class R {
         public static final int pv_pv=0x7f060003;
         public static final int pv_r=0x7f060007;
         public static final int pv_t=0x7f06000b;
-        public static final int pvann_answer=0x7f060015;
-        public static final int pvann_calc=0x7f060014;
-        public static final int pvann_cf=0x7f060011;
-        public static final int pvann_pv=0x7f060010;
-        public static final int pvann_r=0x7f060012;
-        public static final int pvann_t=0x7f060013;
-        public static final int pvanndue_answer=0x7f06001b;
-        public static final int pvanndue_calc=0x7f06001a;
-        public static final int pvanndue_cf=0x7f060017;
-        public static final int pvanndue_pv=0x7f060016;
-        public static final int pvanndue_r=0x7f060018;
-        public static final int pvanndue_t=0x7f060019;
+        public static final int pvann_answer=0x7f060014;
+        public static final int pvann_calc=0x7f060013;
+        public static final int pvann_cf=0x7f060010;
+        public static final int pvann_pv=0x7f06000f;
+        public static final int pvann_r=0x7f060011;
+        public static final int pvann_t=0x7f060012;
+        public static final int pvanndue_answer=0x7f06001a;
+        public static final int pvanndue_calc=0x7f060019;
+        public static final int pvanndue_cf=0x7f060016;
+        public static final int pvanndue_pv=0x7f060015;
+        public static final int pvanndue_r=0x7f060017;
+        public static final int pvanndue_t=0x7f060018;
         public static final int textView0=0x7f060001;
         public static final int textView1=0x7f060000;
         public static final int textView2=0x7f060002;
@@ -50,33 +51,55 @@ public final class R {
         public static final int textView4=0x7f060006;
         public static final int textView5=0x7f060008;
         public static final int textView6=0x7f06000a;
-        public static final int textView7=0x7f06000f;
+        public static final int textView7=0x7f06001b;
     }
     public static final class layout {
         public static final int fragment_bonds=0x7f030000;
         public static final int fragment_bonds_info=0x7f030001;
         public static final int fragment_content1=0x7f030002;
         public static final int fragment_content2=0x7f030003;
-        public static final int fragment_list=0x7f030004;
-        public static final int fragment_pv=0x7f030005;
-        public static final int fragment_pv_info=0x7f030006;
-        public static final int fragment_pvann=0x7f030007;
-        public static final int fragment_pvann_info=0x7f030008;
-        public static final int fragment_pvanndue=0x7f030009;
-        public static final int fragment_pvanndue_info=0x7f03000a;
-        public static final int main=0x7f03000b;
+        public static final int fragment_fvann=0x7f030004;
+        public static final int fragment_fvann_info=0x7f030005;
+        public static final int fragment_fvanndue=0x7f030006;
+        public static final int fragment_fvanndue_info=0x7f030007;
+        public static final int fragment_list=0x7f030008;
+        public static final int fragment_pv=0x7f030009;
+        public static final int fragment_pv_info=0x7f03000a;
+        public static final int fragment_pvann=0x7f03000b;
+        public static final int fragment_pvann_info=0x7f03000c;
+        public static final int fragment_pvanndue=0x7f03000d;
+        public static final int fragment_pvanndue_info=0x7f03000e;
+        public static final int main=0x7f03000f;
     }
     public static final class string {
         public static final int app_name=0x7f040001;
-        public static final int bonds0=0x7f04001e;
-        public static final int bonds1=0x7f04001f;
-        public static final int bondsinfo0=0x7f040020;
-        public static final int bondsinfo1=0x7f040021;
-        public static final int bondsinfo2=0x7f040022;
-        public static final int bondsinfo3=0x7f040023;
-        public static final int bondsinfo4=0x7f040024;
-        public static final int bondsinfo5=0x7f040025;
-        public static final int bondsinfo6=0x7f040026;
+        public static final int bonds0=0x7f040030;
+        public static final int bonds1=0x7f040031;
+        public static final int bondsinfo0=0x7f040032;
+        public static final int bondsinfo1=0x7f040033;
+        public static final int bondsinfo2=0x7f040034;
+        public static final int bondsinfo3=0x7f040035;
+        public static final int bondsinfo4=0x7f040036;
+        public static final int bondsinfo5=0x7f040037;
+        public static final int bondsinfo6=0x7f040038;
+        public static final int fvann0=0x7f04001e;
+        public static final int fvann1=0x7f04001f;
+        public static final int fvanndue0=0x7f040027;
+        public static final int fvanndue1=0x7f040028;
+        public static final int fvanndueinfo0=0x7f040029;
+        public static final int fvanndueinfo1=0x7f04002a;
+        public static final int fvanndueinfo2=0x7f04002b;
+        public static final int fvanndueinfo3=0x7f04002c;
+        public static final int fvanndueinfo4=0x7f04002d;
+        public static final int fvanndueinfo5=0x7f04002e;
+        public static final int fvanndueinfo6=0x7f04002f;
+        public static final int fvanninfo0=0x7f040020;
+        public static final int fvanninfo1=0x7f040021;
+        public static final int fvanninfo2=0x7f040022;
+        public static final int fvanninfo3=0x7f040023;
+        public static final int fvanninfo4=0x7f040024;
+        public static final int fvanninfo5=0x7f040025;
+        public static final int fvanninfo6=0x7f040026;
         public static final int hello=0x7f040000;
         public static final int pv0=0x7f040002;
         public static final int pv1=0x7f040003;
