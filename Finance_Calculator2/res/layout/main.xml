@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="Welcome to my Finance Calculator"/>
+<Button android:id="@+id/topv" android:layout_height="wrap_content" android:text="Present Value" android:layout_width="match_parent"></Button>
+<Button android:id="@+id/tofv" android:layout_height="wrap_content" android:text="Future Value" android:layout_width="match_parent"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/toannuity" android:text="Present Value of Annuity" android:layout_width="fill_parent"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/tointconv" android:text="Interest Rate Conversion" android:layout_width="fill_parent"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/tobond" android:text="Bond Prices" android:layout_width="fill_parent"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/tostockgrowth" android:layout_width="fill_parent" android:text="Stock Growth From Dividends"></Button>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome to converting interest rates"></TextView>
+    <ImageView android:src="@drawable/interest_rate_conversion" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:paddingBottom="5dp" android:paddingTop="5dp"></ImageView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true" android:paddingLeft="5dp" android:text="Rw:"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_below="@+id/imageView1" android:layout_toRightOf="@+id/textView2" android:id="@+id/intconv_input_rw" android:hint="rate to be converted" android:layout_width="fill_parent" android:inputType="number|numberDecimal">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_below="@+id/intconv_input_rw" android:layout_alignParentLeft="true" android:paddingLeft="5dp" android:text="w:"></TextView>
+    <EditText android:layout_alignTop="@+id/textView3" android:layout_alignLeft="@+id/intconv_input_rw" android:id="@+id/intcon_input_w" android:hint="how often Rw is compounded" android:layout_height="wrap_content" android:layout_width="fill_parent" android:inputType="number|numberDecimal"></EditText>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" android:layout_below="@+id/intcon_input_w" android:layout_alignParentLeft="true" android:text="y:" android:paddingLeft="5dp"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_alignTop="@+id/textView4" android:layout_alignLeft="@+id/intcon_input_w" android:id="@+id/intcon_input_y" android:layout_width="fill_parent" android:hint="how often Ry is compounded" android:inputType="number|numberDecimal"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_below="@+id/intcon_input_y" android:layout_alignParentLeft="true" android:id="@+id/intcon_calc" android:text="Calculate" android:layout_width="fill_parent"></Button>
+    <Button android:layout_height="wrap_content" android:layout_below="@+id/intcon_calc" android:layout_alignParentLeft="true" android:id="@+id/intcon_clear" android:text="Clear" android:layout_width="fill_parent"></Button>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/intcon_clear" android:layout_alignParentLeft="true" android:id="@+id/intcon_answer"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

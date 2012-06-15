@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+        <TextView android:id="@+id/textView1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Welcome to calculating stock growth from Dividends" android:paddingLeft="5dp"></TextView>
+        <ImageView android:src="@drawable/stockgrowth" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:layout_width="match_parent" android:paddingBottom="5dp" android:paddingTop="5dp"></ImageView>
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true" android:text="DIV0:" android:paddingLeft="5dp"></TextView>
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_below="@+id/sg_input_div0" android:layout_alignParentLeft="true" android:text="DIV-n:" android:paddingLeft="5dp"></TextView>
+        <EditText android:layout_height="wrap_content" android:layout_alignTop="@+id/textView3" android:layout_toRightOf="@+id/textView3" android:id="@+id/sg_input_divn" android:layout_width="match_parent" android:inputType="number|numberDecimal" android:hint="Dividends n years ago"></EditText>
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_below="@+id/sg_input_divn" android:layout_alignParentLeft="true" android:text="n:" android:paddingLeft="5dp"></TextView>
+        <EditText android:layout_height="wrap_content" android:id="@+id/sg_input_div0" android:layout_alignTop="@+id/textView2" android:layout_alignLeft="@+id/sg_input_divn" android:layout_width="match_parent" android:hint="Dividends today" android:inputType="number|numberDecimal"></EditText>
+        <EditText android:layout_height="wrap_content" android:layout_alignTop="@+id/textView4" android:layout_toRightOf="@+id/textView3" android:id="@+id/sg_input_n" android:layout_width="match_parent" android:inputType="number|numberDecimal" android:hint="number of years between div0 and div-n">
+            <requestFocus></requestFocus>
+        </EditText>
+        <Button android:layout_height="wrap_content" android:layout_below="@+id/sg_input_n" android:layout_alignParentLeft="true" android:id="@+id/sg_calc" android:layout_width="match_parent" android:text="Calculate"></Button>
+        <Button android:layout_height="wrap_content" android:id="@+id/sg_clear" android:layout_below="@+id/sg_calc" android:layout_alignParentLeft="true" android:layout_width="match_parent" android:text="Clear"></Button>
+        <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/sg_clear" android:layout_alignParentLeft="true" android:id="@+id/sg_answer"></TextView>    
+</RelativeLayout>

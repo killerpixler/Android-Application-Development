@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+  android:layout_height="match_parent"
+>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome to the Future Value Formula" android:paddingLeft="5dp"></TextView>
+    <ImageView android:src="@drawable/future_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_below="@+id/textView1" android:layout_alignParentLeft="true" android:paddingBottom="10dp"></ImageView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" android:layout_below="@+id/imageView1" android:layout_alignParentLeft="true" android:paddingLeft="5dp" android:text="Present Value:"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_alignTop="@+id/textView2" android:layout_toRightOf="@+id/textView2" android:id="@+id/fv_input_pv" android:layout_width="fill_parent" android:inputType="number|numberDecimal">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" android:layout_below="@+id/fv_input_pv" android:layout_alignParentLeft="true" android:paddingLeft="5dp" android:text="r (rate):"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_alignTop="@+id/textView3" android:layout_alignLeft="@+id/fv_input_pv" android:id="@+id/fv_input_r" android:layout_width="fill_parent" android:inputType="number|numberDecimal"></EditText>
+    <EditText android:layout_height="wrap_content" android:layout_alignTop="@+id/textView5" android:layout_toRightOf="@+id/textView2" android:id="@+id/fv_input_n" android:layout_width="fill_parent" android:inputType="number|numberDecimal"></EditText>
+    <TextView android:layout_height="wrap_content" android:text="n:" android:layout_width="wrap_content" android:paddingLeft="5dp" android:id="@+id/textView5" android:layout_below="@+id/fv_input_r" android:layout_alignParentLeft="true"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="t:" android:layout_width="wrap_content" android:paddingLeft="5dp" android:id="@+id/textView4" android:layout_below="@+id/fv_input_n" android:layout_alignRight="@+id/textView5"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_alignTop="@+id/textView4" android:layout_toRightOf="@+id/textView2" android:id="@+id/fv_input_t" android:layout_width="fill_parent" android:inputType="number|numberDecimal"></EditText>
+    <Button android:layout_height="wrap_content" android:id="@+id/fv_button_calc" android:layout_below="@+id/fv_input_t" android:layout_alignParentLeft="true" android:text="Calculate" android:layout_width="fill_parent"></Button>
+    <Button android:layout_height="wrap_content" android:layout_below="@+id/fv_button_calc" android:layout_alignParentLeft="true" android:id="@+id/fv_button_clear" android:text="Clear" android:layout_width="fill_parent"></Button>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/fv_button_clear" android:layout_alignParentLeft="true" android:id="@+id/fv_answer"></TextView>
+    
+</RelativeLayout>
+</ScrollView>

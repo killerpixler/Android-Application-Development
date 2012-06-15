@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">MyCalcFinance2</string>
+
+    
+    <string-array name="menuchoices">
+     <item>Present Value</item>
+     <item>Present Value of Annuity</item>
+     <item>Future Value</item>
+     <item>Bond Pricing</item>
+     
+ </string-array>
+ 
+    <string name="pv_theory1">The Present Value calculation - also known as discounting - is used because of the "A dollar today is worth more than a dollar tomorrow. Vice versa, a cash flow that will occur for example five years from now in the amount of $1,000 is not worth $1,000 to you today because of forgone interest, risk, etc. That is why you have to use the following formula in order to find out what this cash flow's present value is. Lets assume that the discount rate used is 6%. Lets assume for simplicity's sake that interest is compounded (i.e. applied) only once a year. Therefore the formula is as follows:</string>
+    <string name="pv_theory2">Calculating this will give a present value of $747.26. This means that if you have to wait for a single payment of $1,000 for five years and the forgone interest, risk, etc. is worth 6% a year to you, then this one time payment is only worth $747.26 today.</string>
+</resources>
