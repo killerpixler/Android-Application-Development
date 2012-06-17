@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="41" version="2.0">
+<workbench progressCount="32" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="594" x="59" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -42,9 +42,9 @@
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/home/maximilian/Android/workspace/TabletCalc/res/values/strings.xml" title="strings.xml" tooltip="TabletCalc/res/values/strings.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TabletCalc/res/values/strings.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnnDue.java" partName="Fragment_FVAnnDue.java" path="/home/maximilian/Android/workspace/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java" title="Fragment_FVAnnDue.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java"/>
-<editorState selectionHorizontalPixel="174" selectionLength="0" selectionOffset="3367" selectionTopPixel="1094"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnn.java" partName="Fragment_FVAnn.java" path="/home/maximilian/Android/workspace/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java" title="Fragment_FVAnn.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3276" selectionTopPixel="1162"/>
 </editor>
 </editors>
 <views>
@@ -53,10 +53,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (7 items)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="338" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -252,9 +248,9 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_pvanndue.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
 </editors>
-<item historyLabel="fragment_fvanndue.xml" index="1"/>
-<item historyLabel="strings.xml" index="0"/>
 <item historyLabel="fragment_fvanndue.xml" index="1"/>
 <item historyLabel="strings.xml" index="0"/>
 <item historyLabel="fragment_pv_info.xml" index="5"/>
@@ -334,8 +330,12 @@
 <item historyLabel="Fragment_FVAnnDue.java" index="12">
 <position info="not_deleted" x="3367" y="0"/>
 </item>
-<item active="true" historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="3374" y="0"/>
+<item historyLabel="Fragment_FVAnnDue.java" index="12">
+<position info="not_deleted" x="3367" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="13"/>
+<item active="true" historyLabel="Fragment_FVAnn.java" index="14">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -343,12 +343,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@116d7bd"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -362,6 +356,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnn.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnnDue.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java">
 <persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java"/>
 </file>
@@ -373,9 +370,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvanndue_info.xml" tooltip="TabletCalc/res/layout/fragment_fvanndue_info.xml">
 <persistable path="/TabletCalc/res/layout/fragment_fvanndue_info.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnn.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java">
-<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvann_info.xml" tooltip="TabletCalc/res/layout/fragment_fvann_info.xml">
 <persistable path="/TabletCalc/res/layout/fragment_fvann_info.xml"/>

@@ -84,7 +84,7 @@ public class Fragment_FVAnn extends Fragment {
 						double fv4 = Double.parseDouble(fv.getText().toString());
 						double cf4= Double.parseDouble(cf.getText().toString());
 						double r4 = Double.parseDouble(r.getText().toString());
-						double result4 = ( Math.log( (fv4*r4/cf4)+1 ) ) / ( Math.log(1+r4) );
+						double result4 = ( Math.log( (fv4*cf4/r4)+1 ) ) / ( Math.log(1+r4) );
 						result4 = (double)(Math.round(result4*100))/100;
 						answer.setText("The annual cash flows will last for: "+result4);
 						break;
