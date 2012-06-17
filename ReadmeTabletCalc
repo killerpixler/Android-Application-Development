@@ -1,4 +1,11 @@
 Changlog
+
+June 17
+-Added full functionality for Future Value Annuity and Due
+-Left placeholders for FVAnn and Due for the "logic behind this formula is" part
+-streamlined strings.xml file for frequently used explanations in the info tabs of each formula
+
+
 June 15
 -finished PresentValue Annuity Due, inserted graphic for Future Value Annuity info page, Strings to populate text fields there not done yet.
 -Things Done

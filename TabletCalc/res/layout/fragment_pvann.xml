@@ -8,7 +8,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pv0"
+        android:text="@string/pvann0"
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 

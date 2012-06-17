@@ -30,14 +30,14 @@ public class Fragment_FVAnn extends Fragment {
 		//clickhandler
 				calc.setOnClickListener(new OnClickListener() {			
 					public void onClick(View v) {
-					EditText pv = (EditText) getActivity().findViewById(R.id.pvann_pv);
-					EditText cf = (EditText) getActivity().findViewById(R.id.pvann_cf);
-					EditText r = (EditText) getActivity().findViewById(R.id.pvann_r);
-					EditText t = (EditText) getActivity().findViewById(R.id.pvann_t);
+					EditText fv = (EditText) getActivity().findViewById(R.id.fvann_pv);
+					EditText cf = (EditText) getActivity().findViewById(R.id.fvann_cf);
+					EditText r = (EditText) getActivity().findViewById(R.id.fvann_r);
+					EditText t = (EditText) getActivity().findViewById(R.id.fvann_t);
 					TextView answer = (TextView) getActivity().findViewById(R.id.pvann_answer);
 					int emptyfieldss = 0;
 					int choice = 0;
-					if (pv.getText().toString().equals("")){
+					if (fv.getText().toString().equals("")){
 						emptyfieldss ++;
 						choice = 1;
 					}
@@ -59,19 +59,19 @@ public class Fragment_FVAnn extends Fragment {
 						errormsg.show();
 					}else{
 					switch (choice) {
-					case 1://pv
+					case 1://fv
 						double cf1 = Double.parseDouble(cf.getText().toString());
 						double r1 = Double.parseDouble(r.getText().toString());
 						double t1 = Double.parseDouble(t.getText().toString());
-						double result1 = (cf1/r1)*(1-(Math.pow(1+r1, -t1) ));
+						double result1 = (cf1/r1)*(Math.pow(1+r1, t1) -1);
 						result1 = (double)(Math.round(result1*100))/100;
 						answer.setText("The Present Value of the cash flow is: "+result1);
 						break;
 					case 2://cf
-						double pv2 = Double.parseDouble(pv.getText().toString());
+						double fv2 = Double.parseDouble(fv.getText().toString());
 						double r2 = Double.parseDouble(r.getText().toString());
 						double t2 = Double.parseDouble(t.getText().toString());
-						double result2 = (pv2*r2)/(1-(Math.pow(1+r2, -t2) ));
+						double result2 = (fv2*r2)/(Math.pow(1+r2, t2) -1);
 						result2 = (double)(Math.round(result2*100))/100;
 						answer.setText("The annual cash flow is: "+result2);
 						break;
@@ -81,10 +81,10 @@ public class Fragment_FVAnn extends Fragment {
 						errormsg.show();
 						break;
 					case 4://t
-						double pv4 = Double.parseDouble(pv.getText().toString());
+						double fv4 = Double.parseDouble(fv.getText().toString());
 						double cf4= Double.parseDouble(cf.getText().toString());
 						double r4 = Double.parseDouble(r.getText().toString());
-						double result4 = ( Math.log( 1 / (1-(pv4*r4/cf4)) ) ) / ( Math.log(1+r4) );
+						double result4 = ( Math.log( (fv4*cf4/r4)+1 ) ) / ( Math.log(1+r4) );
 						result4 = (double)(Math.round(result4*100))/100;
 						answer.setText("The annual cash flows will last for: "+result4);
 						break;

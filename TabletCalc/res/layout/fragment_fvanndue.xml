@@ -8,14 +8,14 @@
         android:id="@+id/textView0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanndue0"
+        android:text="@string/fvanndue0"
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanndue1"
+        android:text="@string/explain_Instructions"
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
@@ -28,7 +28,7 @@
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
     <EditText
-        android:id="@+id/pvanndue_pv"
+        android:id="@+id/fvanndue_pv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -43,7 +43,7 @@
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
     <EditText
-        android:id="@+id/pvanndue_cf"
+        android:id="@+id/fvanndue_cf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -57,7 +57,7 @@
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
     <EditText
-        android:id="@+id/pvanndue_r"
+        android:id="@+id/fvanndue_r"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -71,7 +71,7 @@
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
     <EditText
-        android:id="@+id/pvanndue_t"
+        android:id="@+id/fvanndue_t"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -79,14 +79,14 @@
     </EditText>
 
     <Button
-        android:id="@+id/pvanndue_calc"
+        android:id="@+id/fvanndue_calc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calculate"
          />
 
     <TextView
-        android:id="@+id/pvanndue_answer"
+        android:id="@+id/fvanndue_answer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0" 

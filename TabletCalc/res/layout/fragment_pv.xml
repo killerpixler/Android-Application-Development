@@ -19,7 +19,7 @@
         android:id="@+id/textView0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pv1"
+        android:text="@string/explain_Instructions"
         android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 

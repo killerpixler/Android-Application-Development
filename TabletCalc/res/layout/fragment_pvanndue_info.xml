@@ -19,7 +19,7 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanninfo1" android:padding="10dp"
+        android:text="@string/explain_Formula" android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
      <ImageView
@@ -32,31 +32,31 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanninfo2" android:padding="10dp"
+        android:text="@string/pvanninfo1" android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
        <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanninfo3" android:padding="10dp"
+        android:text="@string/explain_PresentValueAnnuity" android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
         <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanninfo4" android:padding="10dp"
+        android:text="@string/explain_CashFlow" android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
         <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanninfo5" android:padding="10dp"
+        android:text="@string/explain_InterestRate" android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
         <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/pvanninfo6" android:padding="10dp"
+        android:text="@string/explain_Years" android:padding="10dp"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
 
 </LinearLayout>

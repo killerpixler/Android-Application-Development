@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">TabletCalc</string>
+    
+    <string-array name="menuchoices">
+     <item>Present Value</item>
+     <item>Present Value of Annuity</item>
+     <item>Present Value of Annuity Due</item>
+     <item>Future Value of Annuity</item>
+     <item>Future Value of Annuity Due</item>
+     
+ </string-array>
+ 	
+    <string name="pv0">Present Value / Future Value</string>
+    <string name="pv1"></string>
+    <string name="pvinfo0">Present Value / Future Value - Help Section</string>
+    <string name="pvinfo1">The following equation is used:</string>
+    <string name="pvinfo2">The logic behind this formula is that a dollar today is not worth a dollar tomorrow. For example, if you leave $1000 in the bank for a year, it will be worth more (Future Value). Similarly, when you will receive $1000 a year from now, it is worth less to you now (Present Value).</string>
+    <string name="pvinfo3">Present Value: The value of a one-time cash flow today</string>
+    <string name="pvinfo4">Future Value: The value of a one-time cash flow in the future</string>
+    <string name="pvinfo5">Interest Rate / Discount Rate: The ANNUAL interest at which you want the one-time cash flow to grow / decrease</string>
+    <string name="pvinfo6">Number of Periods per year: For interst that compounds (is applied) multiple times a year, it specifies how often in one year an annual interest rate is applied</string>
+    <string name="pvinfo7">Number of Years: How long do you wish the one-time cash flow to grow / to diminish</string>
+    
+    
+    <string name="pvann0">Present Value of Annuity</string>
+    <string name="pvann1">Please fill in the fields, leaving one empty. Please fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
+    <string name="pvanninfo0">Present Value of Annuity - Help Section</string>
+    <string name="pvanninfo1">The following equation is used:</string>
+    <string name="pvanninfo2">The logic behind this formula is that if you receive payments for a number of years, each successive payment is worth less to you because you have to wait for it. Five payments of $5000 for example are not worth $25,000 but less (depending on interest rate applied). This formula calculates how much less the stream of payments is worth.</string>
+    <string name="pvanninfo3">Present Value: The present value sum of all annual payments discounted for the number of years specified</string>
+    <string name="pvanninfo4">Cash Flow: The annual cash flow received each year for the number of years specified</string>
+    <string name="pvanninfo5">Interest Rate: The interest rate applied to see how much less each successive payment is worth</string>
+    <string name="pvanninfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
+    
+    <string name="pvanndue0">Present Value of Annuity Due</string>
+    <string name="pvanndue1">Please fill in the fields, leaving one empty. Please fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
+    <string name="pvanndueinfo0">Present Value of Annuity Due - Help Section</string>
+    <string name="pvanndueinfo1">The following equation is used:</string>
+    <string name="pvanndueinfo2">The logic behind this formula is that if you receive payments for a number of years, each successive payment is worth less to you because you have to wait for it. Five payments of $5000 for example are not worth $25,000 but less (depending on interest rate applied). This formula calculates how much less the stream of payments is worth. However, for the Annuity Due, it is assumed that the first payment is made / received today. This means that it is essentially the cash flow today + the present value of the annuity for n-1 years.</string>
+    <string name="pvanndueinfo3">Present Value: The present value sum of all annual payments discounted for the number of years specified</string>
+    <string name="pvanndueinfo4">Cash Flow: The annual cash flow received each year for the number of years specified</string>
+    <string name="pvanndueinfo5">Interest Rate: The interest rate applied to see how much less each successive payment is worth</string>
+    <string name="pvanndueinfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
+    
+    <string name="fvann0">Future Value of Annuity</string>
+    <string name="fvann1">Please fill in the fields, leaving one empPlease fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
+    <string name="fvanninfo0">Future Value of Annuity - Help Section</string>
+    <string name="fvanninfo1">The following equation is used:</string>
+    <string name="fvanninfo2">Placeholder</string>
+    <string name="fvanninfo3">Future Value: The future value sum of all annual payments with cumulative interest for the number of years specified</string>
+    <string name="fvanninfo4">Cash Flow: The annual cash flow received each year for the number of years specified</string>
+    <string name="fvanninfo5">Interest Rate: The interest rate applied to see how much less each successive payment is worth</string>
+    <string name="fvanninfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
+    
+    <string name="fvanndue0">Future Value of Annuity Due</string>
+    <string name="fvanndue1">Please fill in the fields, leaving one empPlease fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.ty. Hit calculate and the missing value will be calculated.</string>
+    <string name="fvanndueinfo0">Future Value of Annuity Due - Help Section</string>
+    <string name="fvanndueinfo1">The following equation is used:</string>
+    <string name="fvanndueinfo2">Placeholder</string>
+    <string name="fvanndueinfo3"></string>
+    <string name="fvanndueinfo4">Cash Flow: The annual cash flow received each year for the number of years specified</string>
+    <string name="fvanndueinfo5">Interest Rate: The interest rate applied to see how much less each successive payment is worth</string>
+    <string name="fvanndueinfo6">Number of years: The number of years that you receive payments (the same as the number of payments)</string>
+    
+    <string name="bonds0">Present Value of Bonds</string>
+    <string name="bondsinfo0">Present Value of Annuity - Help Section</string>
+    
+
+    
+    
+    <string name="explain_PresentValue"></string>
+    <string name="explain_FutureValue">Future Value: The future value of the Present Value, grown with cumulative interest for the number of years specified</string>
+    <string name="explain_InterestRate">Interest Rate: The interest / discount rate applied to see how much the Present Value decreases / the Future Value increases by</string>
+    <string name="explain_PresentValueAnnuity">Present Value: The present value sum of all annual payments discounted for the number of years specified</string>
+    <string name="explain_FutureValueAnnuity">Future Value: The future value sum of all annual payments with cumulative interest for the number of years specified</string>
+    <string name="explain_Years">Number of years: The number of years that you receive payments, make payments, or grow / discount money for</string>
+    <string name="explain_PeriodsPerYear"></string>
+    <string name="explain_CashFlow">Cash Flow: The annual cash flow received / made each year for the number of years specified</string>
+	<string name="explain_Formula">The following equation is used:</string>
+	<string name="explain_Instructions">Please fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
+</resources>
