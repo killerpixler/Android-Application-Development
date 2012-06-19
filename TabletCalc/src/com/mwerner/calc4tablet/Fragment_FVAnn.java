@@ -17,7 +17,7 @@ public class Fragment_FVAnn extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		return inflater.inflate(R.layout.fragment_pvann, container, false);
+		return inflater.inflate(R.layout.fragment_fvann, container, false);
 }//oncreate ends
 	
 	@Override
@@ -25,7 +25,7 @@ public class Fragment_FVAnn extends Fragment {
 		// TODO Auto-generated method stub
 		super.onActivityCreated(savedInstanceState);
 		
-		Button calc = 	(Button) getActivity().findViewById(R.id.pvann_calc);
+		Button calc = 	(Button) getActivity().findViewById(R.id.fvann_calc);
 
 		//clickhandler
 				calc.setOnClickListener(new OnClickListener() {			

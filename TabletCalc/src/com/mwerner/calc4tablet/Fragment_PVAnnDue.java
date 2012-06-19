@@ -18,7 +18,7 @@ public class Fragment_PVAnnDue extends Fragment {
 		public View onCreateView(LayoutInflater inflater, ViewGroup container,
 				Bundle savedInstanceState) {
 			// TODO Auto-generated method stub
-			return inflater.inflate(R.layout.fragment_pv, container, false);
+			return inflater.inflate(R.layout.fragment_pvanndue, container, false);
 	}//oncreate ends
 
 	@Override
@@ -27,7 +27,7 @@ public class Fragment_PVAnnDue extends Fragment {
 		super.onActivityCreated(savedInstanceState);
 		
 		
-		Button calc = 	(Button) getActivity().findViewById(R.id.pv_calc);
+		Button calc = 	(Button) getActivity().findViewById(R.id.pvanndue_calc);
 
 		//clickhandler
 				calc.setOnClickListener(new OnClickListener() {			

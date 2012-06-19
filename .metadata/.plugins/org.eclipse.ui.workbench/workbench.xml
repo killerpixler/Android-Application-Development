@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="32" version="2.0">
+<workbench progressCount="41" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="594" x="59" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -35,6 +35,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -42,17 +43,27 @@
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/home/maximilian/Android/workspace/TabletCalc/res/values/strings.xml" title="strings.xml" tooltip="TabletCalc/res/values/strings.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TabletCalc/res/values/strings.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnn.java" partName="Fragment_FVAnn.java" path="/home/maximilian/Android/workspace/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java" title="Fragment_FVAnn.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3276" selectionTopPixel="1162"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvanndue.xml" partName="fragment_fvanndue.xml" path="/home/maximilian/Android/workspace/TabletCalc/res/layout/fragment_fvanndue.xml" title="fragment_fvanndue.xml" tooltip="TabletCalc/res/layout/fragment_fvanndue.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TabletCalc/res/layout/fragment_fvanndue.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_Bonds_Info.java" partName="Fragment_Bonds_Info.java" path="/home/maximilian/Android/workspace/TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds_Info.java" title="Fragment_Bonds_Info.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds_Info.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds_Info.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="468" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (39 items)"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="338" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -160,8 +171,13 @@
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.PropertySheet"/>
 <fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@116d7bd" orientation="512" selectedTabId="com.android.ide.eclipse.ddms.views.LogCatView" style="0">
+<fastViews>
+<view id="org.eclipse.ui.views.PropertySheet" ratio="0.3"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView" ratio="0.29960474"/>
+</fastViews>
+</fastViewBar>
 <fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="0">
 <fastViews>
 <view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
@@ -220,11 +236,10 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@116d7bd" ratio="0.7358309" ratioLeft="766" ratioRight="275" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.egit.ui.RepositoriesView" ratio="0.59967583" ratioLeft="370" ratioRight="247" relationship="4" relative="left"/>
@@ -236,105 +251,137 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_fvanndue.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_fvanndue_info.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_fvann.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_fvann_info.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_pv_info.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_pv.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_pvann_info.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_pvann.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_pvanndue_info.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_List.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_bonds.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_bonds_info.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_bonds.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_pvanndue.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnnDue.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnnDue_Info.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn_Info.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue_Info.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnn.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_fvann.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TabletCalc/res/layout/fragment_fvanndue.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds_Info.java"/>
 </editors>
-<item historyLabel="fragment_fvanndue.xml" index="1"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pv_info.xml" index="5"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pv.xml" index="6"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pvann_info.xml" index="7"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pvann.xml" index="8"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pvann.xml" index="8"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pvanndue_info.xml" index="9"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pvanndue.xml" index="10"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_pv_info.xml" index="5"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_fvann.xml" index="3"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_fvann_info.xml" index="4"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="Fragment_FVAnn.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="fragment_bonds.xml" index="2"/>
+<item historyLabel="fragment_bonds_info.xml" index="3"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2741" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnn.java" index="11">
-<position info="not_deleted" x="3280" y="0"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2476" y="0"/>
 </item>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_fvanndue_info.xml" index="2"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_fvanndue_info.xml" index="2"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="fragment_fvanndue.xml" index="1"/>
-<item historyLabel="fragment_fvann.xml" index="3"/>
-<item historyLabel="fragment_fvanndue.xml" index="1"/>
-<item historyLabel="strings.xml" index="0"/>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2484" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="1621" y="0"/>
+<item historyLabel="fragment_bonds_info.xml" index="3"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2414" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="2284" y="0"/>
+<item historyLabel="fragment_bonds_info.xml" index="3"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2414" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="2307" y="0"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2447" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="2314" y="0"/>
+<item historyLabel="fragment_bonds_info.xml" index="3"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2428" y="1"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="2307" y="0"/>
+<item historyLabel="fragment_bonds_info.xml" index="3"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2428" y="1"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="2692" y="0"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="2447" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="2724" y="0"/>
+<item historyLabel="fragment_bonds_info.xml" index="3"/>
+<item historyLabel="fragment_bonds.xml" index="5"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="980" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="3380" y="0"/>
+<item historyLabel="fragment_pvanndue.xml" index="6"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="980" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="3396" y="0"/>
-</item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
+<item historyLabel="Fragment_PVAnnDue.java" index="7">
 <position/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="980" y="0"/>
+</item>
+<item historyLabel="Fragment_PVAnnDue_Info.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Fragment_PVAnnDue_Info.java" index="8">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="980" y="0"/>
+</item>
+<item historyLabel="Fragment_PVAnnDue.java" index="7">
+<position info="not_deleted" x="637" y="0"/>
+</item>
+<item historyLabel="Fragment_List.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Fragment_PVAnnDue.java" index="7">
+<position info="not_deleted" x="583" y="0"/>
+</item>
+<item historyLabel="Fragment_List.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="980" y="0"/>
+</item>
+<item historyLabel="fragment_bonds.xml" index="5"/>
+<item historyLabel="Fragment_Bonds.java" index="4">
+<position info="not_deleted" x="980" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="Fragment_FVAnn.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Fragment_FVAnn_Info.java" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Fragment_FVAnn.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Fragment_FVAnn_Info.java" index="10">
+<position info="not_deleted" x="432" y="0"/>
+</item>
+<item historyLabel="Fragment_FVAnn.java" index="9">
+<position info="not_deleted" x="434" y="8"/>
+</item>
+<item historyLabel="Fragment_FVAnn_Info.java" index="10">
+<position info="not_deleted" x="432" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="Fragment_FVAnnDue_Info.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="3356" y="0"/>
+<position info="not_deleted" x="904" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="3367" y="0"/>
+<item historyLabel="Fragment_FVAnnDue_Info.java" index="11">
+<position info="not_deleted" x="442" y="0"/>
 </item>
-<item historyLabel="Fragment_FVAnnDue.java" index="12">
-<position info="not_deleted" x="3367" y="0"/>
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="Fragment_PVAnn.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="strings.xml" index="13"/>
-<item active="true" historyLabel="Fragment_FVAnn.java" index="14">
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="fragment_fvann.xml" index="14"/>
+<item historyLabel="strings.xml" index="0"/>
+<item historyLabel="fragment_fvanndue.xml" index="15"/>
+<item active="true" historyLabel="Fragment_Bonds_Info.java" index="16">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -343,6 +390,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@116d7bd"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -356,50 +410,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnn.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java">
-<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnnDue.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java">
-<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvann.xml" tooltip="TabletCalc/res/layout/fragment_fvann.xml">
-<persistable path="/TabletCalc/res/layout/fragment_fvann.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_Bonds_Info.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds_Info.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds_Info.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvanndue.xml" tooltip="TabletCalc/res/layout/fragment_fvanndue.xml">
 <persistable path="/TabletCalc/res/layout/fragment_fvanndue.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvanndue_info.xml" tooltip="TabletCalc/res/layout/fragment_fvanndue_info.xml">
-<persistable path="/TabletCalc/res/layout/fragment_fvanndue_info.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvann.xml" tooltip="TabletCalc/res/layout/fragment_fvann.xml">
+<persistable path="/TabletCalc/res/layout/fragment_fvann.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_fvann_info.xml" tooltip="TabletCalc/res/layout/fragment_fvann_info.xml">
-<persistable path="/TabletCalc/res/layout/fragment_fvann_info.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_PVAnn.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnn.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnn.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_pv_info.xml" tooltip="TabletCalc/res/layout/fragment_pv_info.xml">
-<persistable path="/TabletCalc/res/layout/fragment_pv_info.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnnDue.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnnDue_Info.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue_Info.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnnDue_Info.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnn_Info.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn_Info.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn_Info.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_FVAnn.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_FVAnn.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_List.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_List.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_List.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_PVAnnDue.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnnDue.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnnDue.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_PVAnnDue_Info.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnnDue_Info.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_PVAnnDue_Info.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_pvanndue.xml" tooltip="TabletCalc/res/layout/fragment_pvanndue.xml">
 <persistable path="/TabletCalc/res/layout/fragment_pvanndue.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_pvanndue_info.xml" tooltip="TabletCalc/res/layout/fragment_pvanndue_info.xml">
-<persistable path="/TabletCalc/res/layout/fragment_pvanndue_info.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_pvann.xml" tooltip="TabletCalc/res/layout/fragment_pvann.xml">
-<persistable path="/TabletCalc/res/layout/fragment_pvann.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_pvann_info.xml" tooltip="TabletCalc/res/layout/fragment_pvann_info.xml">
-<persistable path="/TabletCalc/res/layout/fragment_pvann_info.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_pv.xml" tooltip="TabletCalc/res/layout/fragment_pv.xml">
-<persistable path="/TabletCalc/res/layout/fragment_pv.xml"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_bonds.xml" tooltip="TabletCalc/res/layout/fragment_bonds.xml">
 <persistable path="/TabletCalc/res/layout/fragment_bonds.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="fvann.png" tooltip="TabletCalc/res/drawable-hdpi/fvann.png">
-<persistable path="/TabletCalc/res/drawable-hdpi/fvann.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="fragment_bonds_info.xml" tooltip="TabletCalc/res/layout/fragment_bonds_info.xml">
+<persistable path="/TabletCalc/res/layout/fragment_bonds_info.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="pvann.png" tooltip="TabletCalc/res/drawable-hdpi/pvann.png">
-<persistable path="/TabletCalc/res/drawable-hdpi/pvann.png"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Fragment_Bonds.java" tooltip="TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds.java">
+<persistable path="/TabletCalc/src/com/mwerner/calc4tablet/Fragment_Bonds.java"/>
 </file>
 </mruList>
 </workbench>

@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, Main!</string>
-    <string name="app_name">TabletCalc</string>
+    <string name="app_name">MyCalc Finance Edition</string>
     
     <string-array name="menuchoices">
      <item>Present Value</item>
@@ -10,6 +10,9 @@
      <item>Present Value of Annuity Due</item>
      <item>Future Value of Annuity</item>
      <item>Future Value of Annuity Due</item>
+     <item>Bond Pricing</item>
+     <item>Growth Rate Calculation</item>
+     <item>Net Present Value</item>
      
  </string-array>
  	
@@ -34,7 +37,11 @@
     <string name="fvanndueinfo1">Placeholder</string>
     
     <string name="bonds0">Present Value of Bonds</string>
-    <string name="bondsinfo0">Present Value of Annuity - Help Section</string>
+    <string name="bondsinfo0">Present Value of Bonds - Help Section</string>
+    <string name="bondsinfo1">Placeholder</string>
+    <string name="bonds_cp_hint">dollar value, not coupon rate</string>
+    
+    
     
 
     
@@ -49,4 +56,7 @@
     <string name="explain_CashFlow">Cash Flow: The annual cash flow received / made each year for the number of years specified</string>
 	<string name="explain_Formula">The following equation is used:</string>
 	<string name="explain_Instructions">Please fill in the fields, leaving one empty. Hit calculate and the missing value will be calculated.</string>
+	<string name="explain_Bonds">Bonds: The present Value that a bond is worth today, taking into account both the discounted face value payment and the discounted annuity of the coupon payments.</string>
+	<string name="explain_Coupon">Coupon Payments: The coupon payment is the money that you receive each year that you are holding the bond. Sometimes you will receive coupon payments multiple times a year; this refers then to the number of periods</string>
+
 </resources>

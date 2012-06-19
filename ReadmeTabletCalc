@@ -1,4 +1,19 @@
+ToDo
+-Add Multiple Periods to Present Value of Annuity calculation
+-Add Multiple Periods to Present Value of Annuity Due calculation
+-Add Multiple Periods to Future Value of Annuity calculation
+-Add Multiple Periods to Future Value of Annuity Due calculation
+-Change Growth Rate and NPV from template layout to actual and include functionality
+
+Placeholders:
+-FVAnn, FVAnnDue, Bonds
+
 Changlog
+June 19
+-Added full functionality for the Bonds Pricing Calculation (Present Value Approach)
+-Added the Growth Rate and NPV menu choices (no functionality yet)
+-fixed major ommission on my part where no matter what you clicked from Present Value Annuity Onwards, only Present Value was displayed - oops :)
+
 
 June 17
 -Added full functionality for Future Value Annuity and Due

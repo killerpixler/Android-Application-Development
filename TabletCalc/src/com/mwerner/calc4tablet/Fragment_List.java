@@ -85,6 +85,34 @@ public class Fragment_List extends ListFragment {
 	 		ft4.replace(R.id.content2, frag41);
 	 		ft4.commit();
 	 		break;
+		case 5:
+			Fragment frag5 = new Fragment_Bonds();
+			Fragment frag51 = new Fragment_Bonds_Info();
+	 		FragmentTransaction ft5 = getFragmentManager().beginTransaction();
+	 		ft5.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+	 		ft5.replace(R.id.content1, frag5);
+	 		ft5.replace(R.id.content2, frag51);
+	 		ft5.commit();
+	 		break;
+		case 6:
+			Fragment frag6 = new Fragment_Growth();
+			Fragment frag61 = new Fragment_Growth_Info();
+	 		FragmentTransaction ft6 = getFragmentManager().beginTransaction();
+	 		ft6.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+	 		ft6.replace(R.id.content1, frag6);
+	 		ft6.replace(R.id.content2, frag61);
+	 		ft6.commit();
+	 		break;
+		case 7:
+			Fragment frag7 = new Fragment_NPV();
+			Fragment frag71 = new Fragment_NPV_Info();
+	 		FragmentTransaction ft7 = getFragmentManager().beginTransaction();
+	 		ft7.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+	 		ft7.replace(R.id.content1, frag7);
+	 		ft7.replace(R.id.content2, frag71);
+	 		ft7.commit();
+	 		break;
+	 		
 
 		default:
 			Toast t = Toast.makeText(getActivity(), "Error Default Break on selction", 10000);
