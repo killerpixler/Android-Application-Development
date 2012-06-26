@@ -1,0 +1,21 @@
+package com.mwerner.calc4tablet;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+
+public class Activity_Details2 extends Activity {
+ @Override
+protected void onCreate(Bundle savedInstanceState) {
+	// TODO Auto-generated method stub
+	super.onCreate(savedInstanceState);
+	
+    String choice=getIntent().getExtras().getString("infos");	
+	
+	if(choice.equals("pv")){
+		setContentView(R.layout.fragment_pv_info);
+	}
+	
+	
+}
+}

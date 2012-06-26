@@ -1,7 +1,9 @@
 package com.mwerner.calc4tablet;
 
-import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,6 +33,7 @@ public class Fragment_PV extends Fragment {
 
 		//clickhandler
 				calc.setOnClickListener(new OnClickListener() {			
+					@Override
 					public void onClick(View v) {
 					EditText pv = (EditText) getActivity().findViewById(R.id.pv_pv);
 					EditText fv = (EditText) getActivity().findViewById(R.id.pv_fv);
@@ -121,6 +124,23 @@ public class Fragment_PV extends Fragment {
 				});
 				//clickhandler end
 		
+				Button b = (Button) getActivity().findViewById(R.id.pv_infobutton);
+				b.setOnClickListener(new OnClickListener() {
+					
+					@Override
+					public void onClick(View v) {
+						/*Fragment frag = new Fragment_PV_Info();
+				 		FragmentTransaction ft = getActivity().getSupportFragmentManager().beginTransaction();
+				 		ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+				 		ft.replace(R.id.list, frag);
+				 		ft.commit();
+				 		*/
+						Intent intent = new Intent();
+			            intent.setClass(getActivity(), Activity_Details2.class);
+			            intent.putExtra("infos", "pv");
+			            startActivity(intent);
+					}
+				});//infobutton when shown only in small mode
 	}//onActivityCreated ends
 	
 	

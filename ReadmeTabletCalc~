@@ -1,3 +1,10 @@
+ToDo
+-Add Multiple Periods to Present Value of Annuity calculation
+-Add Multiple Periods to Present Value of Annuity Due calculation
+-Add Multiple Periods to Future Value of Annuity calculation
+-Add Multiple Periods to Future Value of Annuity Due calculation
+-Change Growth Rate and NPV from template layout to actual and include functionality
+
 Placeholders:
 -FVAnn, FVAnnDue, Bonds
 

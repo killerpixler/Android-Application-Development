@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:name="com.mwerner.calc4tablet.Fragment_List"
+        android:id="@+id/list"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+    <FrameLayout
+        
+        android:id="@+id/content1"
+        android:layout_width="300dp"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/content2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

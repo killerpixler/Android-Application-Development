@@ -111,6 +111,10 @@
         android:padding="10dp"
     	android:textAppearance="?android:attr/textAppearanceLarge" />
 
-    
+    <Button
+        android:id="@+id/pv_infobutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About" />
 
 </LinearLayout></ScrollView>

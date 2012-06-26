@@ -9,6 +9,10 @@ Placeholders:
 -FVAnn, FVAnnDue, Bonds
 
 Changlog
+June 26
+-Reduced build Target down to be compatible with Android 2.3.3
+-Added Support Package rev8 so that fragments work on pre honeycomb devices
+-Attempted (but failed) to convert navigation structure to work on 2.3.3 devices, WORK IN PROGRESS
 June 19
 -Added full functionality for the Bonds Pricing Calculation (Present Value Approach)
 -Added the Growth Rate and NPV menu choices (no functionality yet)

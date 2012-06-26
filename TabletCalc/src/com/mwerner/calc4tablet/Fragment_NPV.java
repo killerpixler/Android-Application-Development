@@ -1,7 +1,7 @@
 package com.mwerner.calc4tablet;
 
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -31,6 +31,7 @@ public class Fragment_NPV extends Fragment {
 
 		//clickhandler
 				calc.setOnClickListener(new OnClickListener() {			
+					@Override
 					public void onClick(View v) {
 					EditText pv = (EditText) getActivity().findViewById(R.id.pv_pv);
 					EditText fv = (EditText) getActivity().findViewById(R.id.pv_fv);
